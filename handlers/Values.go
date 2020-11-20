@@ -11,7 +11,7 @@ import (
 // without syncing it with other nodes in a cluster
 func Values(w http.ResponseWriter, r *http.Request) {
 	// Get the local PNCounter values
-	counter := PNCounter.GetTotal()
+	counter := PNCounter
 
 	// DEBUG log in the case of successful
 	// list indicating the counter
