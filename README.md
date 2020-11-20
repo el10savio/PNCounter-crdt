@@ -8,7 +8,7 @@ CRDTs (Commutative Replicated Data Types) are a certain form of data types that 
 
 ## Example
 
-After building a cluster of PNCounter nodes we can now increment counts to either one or many nodes in the cluster.
+After building a cluster of PNCounter nodes we can now increment or decrement counts to either one or many nodes in the cluster.
 
 ```
 $ curl -i -X GET localhost:8080/pncounter/increment
