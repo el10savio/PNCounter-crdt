@@ -4,8 +4,6 @@ import (
 	"github.com/el10savio/gcounter-crdt/gcounter"
 )
 
-// package pncounter
-
 // PNCounter is the PNCounter CRDT data type
 type PNCounter struct {
 	// Add is a gcounter to store the values added
